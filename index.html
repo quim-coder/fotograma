@@ -11,7 +11,14 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<script defer data-domain="quim-coder.github.io/fotograma" src="https://plausible.io/js/script.js"></script>
+<!-- Google Analytics 4 (gratis) — reemplaza G-XXXXXXXXXX con tu Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 <style>
   /* doble src: primero archivo (localhost/GitHub Pages; esquiva bloqueadores de fuentes data:)
      y si no existe, cae a la versión incrustada (artifact autocontenido).
